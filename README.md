@@ -1,4 +1,6 @@
-![Your Artwork Gallery](/client/images/Banner.png)
+![Your Artwork Gallery](/images/Banner.png)
+
+## Front-End
 
 ## Date: 7/29/2022
 
@@ -25,7 +27,7 @@ This online art directory is a space where artistic creators from around the wor
 ## **_Screenshots_**
 
 <pre>
-  <img src="/client/images/Homepage.png"  alt="Collections Page">&nbsp;&nbsp;&nbsp;<img src="/client/images/Artworks.png" alt="Artworks Page">&nbsp;&nbsp;&nbsp;<img src="/client/images/Submit.png" alt="Submit Your Art">
+  <img src="/images/Homepage.png"  alt="Collections Page">&nbsp;&nbsp;&nbsp;<img src="/images/Artworks.png" alt="Artworks Page">&nbsp;&nbsp;&nbsp;<img src="/images/Submit.png" alt="Submit Your Art">
 </pre>
 
 ---
@@ -53,7 +55,9 @@ This online art directory is a space where artistic creators from around the wor
 
 ---
 
-## **_Credits_**
+## **_Resources_**
+
+**Back-End: [GitHub Repo](https://github.com/jasonmar08/Your_Art_Gallery_Backend)**
 
 **Art Gallery Images/Info: [art.com](https://tinyurl.com/ya46mtet)**
 
