@@ -26,9 +26,21 @@ This online art directory is a space where artistic creators from around the wor
 
 ## **_Screenshots_**
 
-<pre>
-  <img src="/images/Homepage.png"  alt="Collections Page">&nbsp;&nbsp;&nbsp;<img src="/images/Artworks.png" alt="Artworks Page">&nbsp;&nbsp;&nbsp;<img src="/images/Submit.png" alt="Submit Your Art">
-</pre>
+#### Mobile Version
+
+<div style= "center">
+    <pre>
+        <img src="images/mobile_collections1.png"  height="350">&nbsp;&nbsp;&nbsp;<img src="images/mobile_collections2.png" height="350">&nbsp;&nbsp;&nbsp;<img src="images/mobile_artworks.png" height="350">&nbsp;&nbsp;&nbsp;<img src="images/mobile_update.png" height="350">&nbsp;&nbsp;&nbsp;<img src="images/mobile_share1.png" height="350">&nbsp;&nbsp;&nbsp;<img src="images/mobile_share2.png" height="350">&nbsp;&nbsp;&nbsp;
+    </pre>
+</div>
+
+#### Browser Version
+
+<div style= "center">
+    <pre>
+        <img src="images/collections.png"  height="400">&nbsp;&nbsp;&nbsp;<img src="images/artworks.png" height="400">&nbsp;&nbsp;&nbsp;<img src="images/update.png" height="400">&nbsp;&nbsp;&nbsp;<img src="images/share.png" height="400">&nbsp;&nbsp;&nbsp;
+    </pre>
+</div>
 
 ---
 
