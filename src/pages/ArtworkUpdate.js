@@ -39,7 +39,32 @@ const UpdateArtwork = () => {
   }, [])
 
   return (
-    <div>
+    <div className="update-container">
+      <div className="artwork-card">
+        <div className="artwork-image-grid">
+          <img
+            src={
+              !formState.image
+                ? 'https://i.postimg.cc/c4yTTsSJ/artwork-placeholder.png'
+                : formState.image
+            }
+            alt={formState.piece_name}
+          />
+        </div>
+        <div className="artwork-info-grid">
+          <h4>{formState.piece_name}</h4>
+          <p>
+            <span>
+              <strong>Artist:</strong> {formState.artist_name}
+            </span>
+          </p>
+          <p>
+            <span>
+              <strong>Price:</strong> {formState.price}
+            </span>
+          </p>
+        </div>
+      </div>
       <div className="updateArtworkForm">
         <h3 className="updateTitle">Update Your Artwork Below:</h3>
         <form onSubmit={updateArtwork} className="updateInputs">
@@ -81,6 +106,9 @@ const UpdateArtwork = () => {
           ></input>
           <section className="subButts">
             <button className="submitButtons">Submit Updates!</button>
+            <button onClick={() => navigate(-1)} className="cancel-button">
+              Cancel
+            </button>
           </section>
         </form>
       </div>

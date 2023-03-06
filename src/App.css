@@ -255,6 +255,34 @@ input {
   margin-top: 30px;
 }
 
+.update-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 150px;
+  margin-top: 50px;
+}
+
+.artwork-card {
+  display: grid;
+  row-gap: 20px;
+  width: 250px;
+  padding: 15px;
+  background-color:#dbc9b7;
+  border: 0.2em ridge rgb(246, 225, 188);
+  border-radius: 0.9em;
+}
+
+.artwork-image-grid {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
+
+.artwork-info-grid {
+  text-align: center;
+}
+
 .updateTitle {
   font-size: 20px;
   text-align: center;
@@ -266,6 +294,34 @@ input {
   /* grid-gap: 1em; */
   justify-content: center;
 }
+
+.cancel-button {
+  display:inline-block;
+  background-color:#bbb09f;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight: 300;
+  color:#1b1818;
+  text-align:center;
+  transition: all 0.2s;
+}
+  .cancel-button:hover {
+  color:rgb(246, 225, 188);
+  background-color: #6b5f57;
+  cursor: pointer;
+  }
+  @media all and (max-width:30em){
+  .cancel-button{
+  display:block;
+  margin:0.4em auto;
+  }
+  }
 
 .removeCollection {
   display: flex;
@@ -359,6 +415,11 @@ input {
     justify-content: center;
   }
 
+  .update-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
 
   .collection-grid {
     width: 300px;
